@@ -17,7 +17,7 @@ place_2 = Place.create(name: 'Teatro Caupolican', address:'San Diego 850', capac
 event_1 = Event.create(name: 'ICPC 2018', start_date: DateTime.new(2018, 05, 15), place: place_1)
 event_2 = Event.create(name: 'Facebook Hackathon 2018', start_date: DateTime.new(2018, 05, 20), place: place_1)
 event_3 = Event.create(name: 'Lollapalooza 2018', start_date: DateTime.new(2018, 06, 25), place: place_2)
-event_4 = Event.create(name: 'Festival de Viña 2018', start_date: DateTime.new(2018, 06, 30), place: place_2)
+event_4 = Event.create(name: 'Festival de Viña 2018', start_date: DateTime.new(2017, 06, 30), place: place_2)
 
 ticket_1 = Ticket.create(price: 5000, event: event_1)
 ticket_2 = Ticket.create(price: 5000, event: event_1)
